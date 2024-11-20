@@ -1,0 +1,11 @@
+C:\Users\CC2_PC36\tapetes\Tapetes\Tapetes\obj\Debug\Tapetes.csprojResolveAssemblyReference.cache
+C:\Users\CC2_PC36\tapetes\Tapetes\Tapetes\obj\Debug\Tapetes.Calcular.resources
+C:\Users\CC2_PC36\tapetes\Tapetes\Tapetes\obj\Debug\Tapetes.comprado.resources
+C:\Users\CC2_PC36\tapetes\Tapetes\Tapetes\obj\Debug\Tapetes.Insertar.resources
+C:\Users\CC2_PC36\tapetes\Tapetes\Tapetes\obj\Debug\Tapetes.intro.resources
+C:\Users\CC2_PC36\tapetes\Tapetes\Tapetes\obj\Debug\Tapetes.MainForm.resources
+C:\Users\CC2_PC36\tapetes\Tapetes\Tapetes\obj\Debug\Tapetes.csproj.GenerateResource.Cache
+C:\Users\CC2_PC36\tapetes\Tapetes\Tapetes\bin\Debug\Tapetes.exe
+C:\Users\CC2_PC36\tapetes\Tapetes\Tapetes\bin\Debug\Tapetes.pdb
+C:\Users\CC2_PC36\tapetes\Tapetes\Tapetes\obj\Debug\Tapetes.exe
+C:\Users\CC2_PC36\tapetes\Tapetes\Tapetes\obj\Debug\Tapetes.pdb
