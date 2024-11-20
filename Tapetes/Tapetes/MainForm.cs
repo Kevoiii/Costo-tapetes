@@ -33,5 +33,14 @@ namespace Tapetes
 		
 		 
 		
+		
+		void Button4Click(object sender, EventArgs e)
+		{
+			intro inn = new intro();
+			this.Hide();
+			inn.ShowDialog();
+			this.Close();
+		}
 	}
 }
+ 

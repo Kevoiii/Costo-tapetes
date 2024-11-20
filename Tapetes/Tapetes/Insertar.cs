@@ -30,5 +30,22 @@ namespace Tapetes
 		}
 		
 		
+		
+		void Button5Click(object sender, EventArgs e)
+		{
+						
+		Calcular inn = new Calcular();
+			this.Hide();
+			inn.ShowDialog();
+			this.Close();				
+		}
+		
+		void Button2Click(object sender, EventArgs e)
+		{
+			intro inn = new intro();
+			this.Hide();
+			inn.ShowDialog();
+			this.Close();	
+		}
 	}
 }

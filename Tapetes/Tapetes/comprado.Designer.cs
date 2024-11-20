@@ -47,7 +47,7 @@ namespace Tapetes
 			// 
 			// button4
 			// 
-			this.button4.BackColor = System.Drawing.Color.Yellow;
+			this.button4.BackColor = System.Drawing.Color.DarkKhaki;
 			this.button4.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.button4.Location = new System.Drawing.Point(12, 187);
@@ -88,6 +88,7 @@ namespace Tapetes
 			this.button1.TabIndex = 83;
 			this.button1.Text = "volver a comprar";
 			this.button1.UseVisualStyleBackColor = false;
+			this.button1.Click += new System.EventHandler(this.Button1Click);
 			// 
 			// comprado
 			// 

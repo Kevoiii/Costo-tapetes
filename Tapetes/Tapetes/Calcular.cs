@@ -30,5 +30,13 @@ namespace Tapetes
 		}
 		
 		
+		
+		void Button5Click(object sender, EventArgs e)
+		{
+			comprado inn = new comprado();
+			this.Hide();
+			inn.ShowDialog();
+			this.Close();				
+		}
 	}
 }

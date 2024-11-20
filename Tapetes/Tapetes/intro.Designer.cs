@@ -89,10 +89,11 @@ namespace Tapetes
 			this.button1.TabIndex = 9;
 			this.button1.Text = "Entrar";
 			this.button1.UseVisualStyleBackColor = false;
+			this.button1.Click += new System.EventHandler(this.Button1Click);
 			// 
 			// button2
 			// 
-			this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.button2.BackColor = System.Drawing.Color.Silver;
 			this.button2.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.button2.ForeColor = System.Drawing.Color.Yellow;
 			this.button2.Location = new System.Drawing.Point(1, 558);
@@ -104,7 +105,7 @@ namespace Tapetes
 			// 
 			// button3
 			// 
-			this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.button3.BackColor = System.Drawing.Color.Silver;
 			this.button3.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.button3.ForeColor = System.Drawing.Color.Yellow;
 			this.button3.Location = new System.Drawing.Point(578, 558);

@@ -66,11 +66,10 @@ namespace Tapetes
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(922, 83);
 			this.label1.TabIndex = 0;
-	
 			// 
 			// button1
 			// 
-			this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.button1.BackColor = System.Drawing.Color.Silver;
 			this.button1.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.button1.ForeColor = System.Drawing.Color.Yellow;
 			this.button1.Location = new System.Drawing.Point(34, 538);
@@ -82,7 +81,7 @@ namespace Tapetes
 			// 
 			// button2
 			// 
-			this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.button2.BackColor = System.Drawing.Color.Silver;
 			this.button2.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.button2.ForeColor = System.Drawing.Color.Yellow;
 			this.button2.Location = new System.Drawing.Point(300, 538);
@@ -91,11 +90,10 @@ namespace Tapetes
 			this.button2.TabIndex = 2;
 			this.button2.Text = "!La mejor app¡";
 			this.button2.UseVisualStyleBackColor = false;
-			
 			// 
 			// button3
 			// 
-			this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.button3.BackColor = System.Drawing.Color.Silver;
 			this.button3.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.button3.ForeColor = System.Drawing.Color.Yellow;
 			this.button3.Location = new System.Drawing.Point(714, 538);
@@ -116,6 +114,7 @@ namespace Tapetes
 			this.button4.TabIndex = 4;
 			this.button4.Text = "Entrar";
 			this.button4.UseVisualStyleBackColor = false;
+			this.button4.Click += new System.EventHandler(this.Button4Click);
 			// 
 			// pictureBox1
 			// 

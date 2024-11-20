@@ -28,5 +28,13 @@ namespace Tapetes
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+		void Button1Click(object sender, EventArgs e)
+		{
+			Insertar inn = new Insertar();
+			this.Hide();
+			inn.ShowDialog();
+			this.Close();				
+		}
 	}
 }

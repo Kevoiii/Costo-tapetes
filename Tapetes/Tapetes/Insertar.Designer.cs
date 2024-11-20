@@ -185,19 +185,20 @@ namespace Tapetes
 			// 
 			// button2
 			// 
-			this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.button2.BackColor = System.Drawing.Color.Silver;
 			this.button2.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.button2.ForeColor = System.Drawing.Color.Yellow;
 			this.button2.Location = new System.Drawing.Point(25, 531);
 			this.button2.Name = "button2";
 			this.button2.Size = new System.Drawing.Size(179, 49);
 			this.button2.TabIndex = 20;
-			this.button2.Text = "!Facil¡";
+			this.button2.Text = "Volver";
 			this.button2.UseVisualStyleBackColor = false;
+			this.button2.Click += new System.EventHandler(this.Button2Click);
 			// 
 			// button3
 			// 
-			this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.button3.BackColor = System.Drawing.Color.Silver;
 			this.button3.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.button3.ForeColor = System.Drawing.Color.Yellow;
 			this.button3.Location = new System.Drawing.Point(712, 531);
@@ -212,12 +213,13 @@ namespace Tapetes
 			this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.button5.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.button5.ForeColor = System.Drawing.Color.Yellow;
-			this.button5.Location = new System.Drawing.Point(279, 531);
+			this.button5.Location = new System.Drawing.Point(278, 527);
 			this.button5.Name = "button5";
 			this.button5.Size = new System.Drawing.Size(349, 49);
 			this.button5.TabIndex = 22;
 			this.button5.Text = "Calcular";
 			this.button5.UseVisualStyleBackColor = false;
+			this.button5.Click += new System.EventHandler(this.Button5Click);
 			// 
 			// label7
 			// 
@@ -302,7 +304,6 @@ namespace Tapetes
 			this.label12.Size = new System.Drawing.Size(240, 34);
 			this.label12.TabIndex = 30;
 			this.label12.Text = "Tortas";
-		
 			// 
 			// label13
 			// 
