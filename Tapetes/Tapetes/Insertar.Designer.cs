@@ -302,7 +302,7 @@ namespace Tapetes
 			this.label12.Size = new System.Drawing.Size(240, 34);
 			this.label12.TabIndex = 30;
 			this.label12.Text = "Tortas";
-			this.label12.Click += new System.EventHandler(this.Label12Click);
+		
 			// 
 			// label13
 			// 
