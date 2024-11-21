@@ -45,33 +45,33 @@ namespace Tapetes
 			this.textBox1 = new System.Windows.Forms.TextBox();
 			this.textBox2 = new System.Windows.Forms.TextBox();
 			this.label4 = new System.Windows.Forms.Label();
-			this.button1 = new System.Windows.Forms.Button();
-			this.label5 = new System.Windows.Forms.Label();
+			this.btnpintura = new System.Windows.Forms.Button();
+			this.lblpintura = new System.Windows.Forms.Label();
 			this.label6 = new System.Windows.Forms.Label();
 			this.button2 = new System.Windows.Forms.Button();
 			this.button3 = new System.Windows.Forms.Button();
 			this.button5 = new System.Windows.Forms.Button();
 			this.label7 = new System.Windows.Forms.Label();
-			this.button6 = new System.Windows.Forms.Button();
-			this.label8 = new System.Windows.Forms.Label();
+			this.btnflores = new System.Windows.Forms.Button();
+			this.lblflores = new System.Windows.Forms.Label();
 			this.label9 = new System.Windows.Forms.Label();
-			this.button7 = new System.Windows.Forms.Button();
-			this.label10 = new System.Windows.Forms.Label();
+			this.btnfruta = new System.Windows.Forms.Button();
+			this.lblfruta = new System.Windows.Forms.Label();
 			this.label11 = new System.Windows.Forms.Label();
 			this.label12 = new System.Windows.Forms.Label();
 			this.label13 = new System.Windows.Forms.Label();
 			this.label14 = new System.Windows.Forms.Label();
-			this.button8 = new System.Windows.Forms.Button();
-			this.label15 = new System.Windows.Forms.Label();
-			this.button9 = new System.Windows.Forms.Button();
-			this.label16 = new System.Windows.Forms.Label();
-			this.button10 = new System.Windows.Forms.Button();
-			this.label17 = new System.Windows.Forms.Label();
-			this.button11 = new System.Windows.Forms.Button();
-			this.label18 = new System.Windows.Forms.Label();
+			this.btntrabaja = new System.Windows.Forms.Button();
+			this.lbltrabajadores = new System.Windows.Forms.Label();
+			this.btntortas = new System.Windows.Forms.Button();
+			this.lbltortas = new System.Windows.Forms.Label();
+			this.btnbotella = new System.Windows.Forms.Button();
+			this.lblbotellas = new System.Windows.Forms.Label();
+			this.btnbp = new System.Windows.Forms.Button();
+			this.lblbotanap = new System.Windows.Forms.Label();
 			this.label19 = new System.Windows.Forms.Label();
-			this.button12 = new System.Windows.Forms.Button();
-			this.label20 = new System.Windows.Forms.Label();
+			this.btnbg = new System.Windows.Forms.Button();
+			this.lblbotanag = new System.Windows.Forms.Label();
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -153,27 +153,28 @@ namespace Tapetes
 			this.label4.TabIndex = 16;
 			this.label4.Text = "32 gr de pintura";
 			// 
-			// button1
+			// btnpintura
 			// 
-			this.button1.BackColor = System.Drawing.Color.Yellow;
-			this.button1.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-			this.button1.Location = new System.Drawing.Point(-1, 322);
-			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(58, 49);
-			this.button1.TabIndex = 17;
-			this.button1.Text = "+";
-			this.button1.UseVisualStyleBackColor = false;
+			this.btnpintura.BackColor = System.Drawing.Color.Yellow;
+			this.btnpintura.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnpintura.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.btnpintura.Location = new System.Drawing.Point(-1, 322);
+			this.btnpintura.Name = "btnpintura";
+			this.btnpintura.Size = new System.Drawing.Size(58, 49);
+			this.btnpintura.TabIndex = 17;
+			this.btnpintura.Text = "+";
+			this.btnpintura.UseVisualStyleBackColor = false;
+			this.btnpintura.Click += new System.EventHandler(this.BtnpinturaClick);
 			// 
-			// label5
+			// lblpintura
 			// 
-			this.label5.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label5.ForeColor = System.Drawing.Color.Yellow;
-			this.label5.Location = new System.Drawing.Point(76, 322);
-			this.label5.Name = "label5";
-			this.label5.Size = new System.Drawing.Size(108, 49);
-			this.label5.TabIndex = 18;
-			this.label5.Text = "///////";
+			this.lblpintura.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblpintura.ForeColor = System.Drawing.Color.Yellow;
+			this.lblpintura.Location = new System.Drawing.Point(76, 322);
+			this.lblpintura.Name = "lblpintura";
+			this.lblpintura.Size = new System.Drawing.Size(108, 49);
+			this.lblpintura.TabIndex = 18;
+			this.lblpintura.Text = "0";
 			// 
 			// label6
 			// 
@@ -229,29 +230,30 @@ namespace Tapetes
 			this.label7.Name = "label7";
 			this.label7.Size = new System.Drawing.Size(240, 34);
 			this.label7.TabIndex = 23;
-			this.label7.Text = "Kilos de pintura";
+			this.label7.Text = "Flores";
 			// 
-			// button6
+			// btnflores
 			// 
-			this.button6.BackColor = System.Drawing.Color.Yellow;
-			this.button6.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-			this.button6.Location = new System.Drawing.Point(-1, 396);
-			this.button6.Name = "button6";
-			this.button6.Size = new System.Drawing.Size(58, 49);
-			this.button6.TabIndex = 24;
-			this.button6.Text = "+";
-			this.button6.UseVisualStyleBackColor = false;
+			this.btnflores.BackColor = System.Drawing.Color.Yellow;
+			this.btnflores.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnflores.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.btnflores.Location = new System.Drawing.Point(-1, 396);
+			this.btnflores.Name = "btnflores";
+			this.btnflores.Size = new System.Drawing.Size(58, 49);
+			this.btnflores.TabIndex = 24;
+			this.btnflores.Text = "+";
+			this.btnflores.UseVisualStyleBackColor = false;
+			this.btnflores.Click += new System.EventHandler(this.BtnfloresClick);
 			// 
-			// label8
+			// lblflores
 			// 
-			this.label8.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label8.ForeColor = System.Drawing.Color.Yellow;
-			this.label8.Location = new System.Drawing.Point(76, 396);
-			this.label8.Name = "label8";
-			this.label8.Size = new System.Drawing.Size(108, 49);
-			this.label8.TabIndex = 25;
-			this.label8.Text = "///////";
+			this.lblflores.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblflores.ForeColor = System.Drawing.Color.Yellow;
+			this.lblflores.Location = new System.Drawing.Point(76, 396);
+			this.lblflores.Name = "lblflores";
+			this.lblflores.Size = new System.Drawing.Size(108, 49);
+			this.lblflores.TabIndex = 25;
+			this.lblflores.Text = "0";
 			// 
 			// label9
 			// 
@@ -263,27 +265,27 @@ namespace Tapetes
 			this.label9.TabIndex = 26;
 			this.label9.Text = "Kilos de fruta seca";
 			// 
-			// button7
+			// btnfruta
 			// 
-			this.button7.BackColor = System.Drawing.Color.Yellow;
-			this.button7.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-			this.button7.Location = new System.Drawing.Point(-1, 466);
-			this.button7.Name = "button7";
-			this.button7.Size = new System.Drawing.Size(58, 49);
-			this.button7.TabIndex = 27;
-			this.button7.Text = "+";
-			this.button7.UseVisualStyleBackColor = false;
+			this.btnfruta.BackColor = System.Drawing.Color.Yellow;
+			this.btnfruta.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnfruta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.btnfruta.Location = new System.Drawing.Point(-1, 466);
+			this.btnfruta.Name = "btnfruta";
+			this.btnfruta.Size = new System.Drawing.Size(58, 49);
+			this.btnfruta.TabIndex = 27;
+			this.btnfruta.Text = "+";
+			this.btnfruta.UseVisualStyleBackColor = false;
 			// 
-			// label10
+			// lblfruta
 			// 
-			this.label10.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label10.ForeColor = System.Drawing.Color.Yellow;
-			this.label10.Location = new System.Drawing.Point(76, 466);
-			this.label10.Name = "label10";
-			this.label10.Size = new System.Drawing.Size(108, 49);
-			this.label10.TabIndex = 28;
-			this.label10.Text = "///////";
+			this.lblfruta.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblfruta.ForeColor = System.Drawing.Color.Yellow;
+			this.lblfruta.Location = new System.Drawing.Point(76, 466);
+			this.lblfruta.Name = "lblfruta";
+			this.lblfruta.Size = new System.Drawing.Size(108, 49);
+			this.lblfruta.TabIndex = 28;
+			this.lblfruta.Text = "0";
 			// 
 			// label11
 			// 
@@ -325,93 +327,93 @@ namespace Tapetes
 			this.label14.TabIndex = 32;
 			this.label14.Text = "Botellas de agua";
 			// 
-			// button8
+			// btntrabaja
 			// 
-			this.button8.BackColor = System.Drawing.Color.Yellow;
-			this.button8.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-			this.button8.Location = new System.Drawing.Point(345, 221);
-			this.button8.Name = "button8";
-			this.button8.Size = new System.Drawing.Size(58, 49);
-			this.button8.TabIndex = 33;
-			this.button8.Text = "+";
-			this.button8.UseVisualStyleBackColor = false;
+			this.btntrabaja.BackColor = System.Drawing.Color.Yellow;
+			this.btntrabaja.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btntrabaja.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.btntrabaja.Location = new System.Drawing.Point(345, 221);
+			this.btntrabaja.Name = "btntrabaja";
+			this.btntrabaja.Size = new System.Drawing.Size(58, 49);
+			this.btntrabaja.TabIndex = 33;
+			this.btntrabaja.Text = "+";
+			this.btntrabaja.UseVisualStyleBackColor = false;
 			// 
-			// label15
+			// lbltrabajadores
 			// 
-			this.label15.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label15.ForeColor = System.Drawing.Color.Yellow;
-			this.label15.Location = new System.Drawing.Point(419, 221);
-			this.label15.Name = "label15";
-			this.label15.Size = new System.Drawing.Size(108, 49);
-			this.label15.TabIndex = 34;
-			this.label15.Text = "///////";
+			this.lbltrabajadores.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lbltrabajadores.ForeColor = System.Drawing.Color.Yellow;
+			this.lbltrabajadores.Location = new System.Drawing.Point(419, 221);
+			this.lbltrabajadores.Name = "lbltrabajadores";
+			this.lbltrabajadores.Size = new System.Drawing.Size(108, 49);
+			this.lbltrabajadores.TabIndex = 34;
+			this.lbltrabajadores.Text = "0";
 			// 
-			// button9
+			// btntortas
 			// 
-			this.button9.BackColor = System.Drawing.Color.Yellow;
-			this.button9.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-			this.button9.Location = new System.Drawing.Point(345, 299);
-			this.button9.Name = "button9";
-			this.button9.Size = new System.Drawing.Size(58, 49);
-			this.button9.TabIndex = 35;
-			this.button9.Text = "+";
-			this.button9.UseVisualStyleBackColor = false;
+			this.btntortas.BackColor = System.Drawing.Color.Yellow;
+			this.btntortas.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btntortas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.btntortas.Location = new System.Drawing.Point(345, 299);
+			this.btntortas.Name = "btntortas";
+			this.btntortas.Size = new System.Drawing.Size(58, 49);
+			this.btntortas.TabIndex = 35;
+			this.btntortas.Text = "+";
+			this.btntortas.UseVisualStyleBackColor = false;
 			// 
-			// label16
+			// lbltortas
 			// 
-			this.label16.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label16.ForeColor = System.Drawing.Color.Yellow;
-			this.label16.Location = new System.Drawing.Point(419, 299);
-			this.label16.Name = "label16";
-			this.label16.Size = new System.Drawing.Size(108, 49);
-			this.label16.TabIndex = 36;
-			this.label16.Text = "///////";
+			this.lbltortas.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lbltortas.ForeColor = System.Drawing.Color.Yellow;
+			this.lbltortas.Location = new System.Drawing.Point(419, 299);
+			this.lbltortas.Name = "lbltortas";
+			this.lbltortas.Size = new System.Drawing.Size(108, 49);
+			this.lbltortas.TabIndex = 36;
+			this.lbltortas.Text = "0";
 			// 
-			// button10
+			// btnbotella
 			// 
-			this.button10.BackColor = System.Drawing.Color.Yellow;
-			this.button10.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-			this.button10.Location = new System.Drawing.Point(345, 371);
-			this.button10.Name = "button10";
-			this.button10.Size = new System.Drawing.Size(58, 49);
-			this.button10.TabIndex = 37;
-			this.button10.Text = "+";
-			this.button10.UseVisualStyleBackColor = false;
+			this.btnbotella.BackColor = System.Drawing.Color.Yellow;
+			this.btnbotella.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnbotella.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.btnbotella.Location = new System.Drawing.Point(345, 371);
+			this.btnbotella.Name = "btnbotella";
+			this.btnbotella.Size = new System.Drawing.Size(58, 49);
+			this.btnbotella.TabIndex = 37;
+			this.btnbotella.Text = "+";
+			this.btnbotella.UseVisualStyleBackColor = false;
 			// 
-			// label17
+			// lblbotellas
 			// 
-			this.label17.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label17.ForeColor = System.Drawing.Color.Yellow;
-			this.label17.Location = new System.Drawing.Point(419, 371);
-			this.label17.Name = "label17";
-			this.label17.Size = new System.Drawing.Size(108, 49);
-			this.label17.TabIndex = 38;
-			this.label17.Text = "///////";
+			this.lblbotellas.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblbotellas.ForeColor = System.Drawing.Color.Yellow;
+			this.lblbotellas.Location = new System.Drawing.Point(419, 371);
+			this.lblbotellas.Name = "lblbotellas";
+			this.lblbotellas.Size = new System.Drawing.Size(108, 49);
+			this.lblbotellas.TabIndex = 38;
+			this.lblbotellas.Text = "0";
 			// 
-			// button11
+			// btnbp
 			// 
-			this.button11.BackColor = System.Drawing.Color.Yellow;
-			this.button11.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-			this.button11.Location = new System.Drawing.Point(345, 445);
-			this.button11.Name = "button11";
-			this.button11.Size = new System.Drawing.Size(58, 49);
-			this.button11.TabIndex = 39;
-			this.button11.Text = "+";
-			this.button11.UseVisualStyleBackColor = false;
+			this.btnbp.BackColor = System.Drawing.Color.Yellow;
+			this.btnbp.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnbp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.btnbp.Location = new System.Drawing.Point(345, 445);
+			this.btnbp.Name = "btnbp";
+			this.btnbp.Size = new System.Drawing.Size(58, 49);
+			this.btnbp.TabIndex = 39;
+			this.btnbp.Text = "+";
+			this.btnbp.UseVisualStyleBackColor = false;
 			// 
-			// label18
+			// lblbotanap
 			// 
-			this.label18.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label18.ForeColor = System.Drawing.Color.Yellow;
-			this.label18.Location = new System.Drawing.Point(419, 445);
-			this.label18.Name = "label18";
-			this.label18.Size = new System.Drawing.Size(108, 49);
-			this.label18.TabIndex = 40;
-			this.label18.Text = "///////";
+			this.lblbotanap.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblbotanap.ForeColor = System.Drawing.Color.Yellow;
+			this.lblbotanap.Location = new System.Drawing.Point(419, 445);
+			this.lblbotanap.Name = "lblbotanap";
+			this.lblbotanap.Size = new System.Drawing.Size(108, 49);
+			this.lblbotanap.TabIndex = 40;
+			this.lblbotanap.Text = "0";
 			// 
 			// label19
 			// 
@@ -423,27 +425,27 @@ namespace Tapetes
 			this.label19.TabIndex = 41;
 			this.label19.Text = "Botana grande";
 			// 
-			// button12
+			// btnbg
 			// 
-			this.button12.BackColor = System.Drawing.Color.Yellow;
-			this.button12.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-			this.button12.Location = new System.Drawing.Point(651, 217);
-			this.button12.Name = "button12";
-			this.button12.Size = new System.Drawing.Size(58, 49);
-			this.button12.TabIndex = 42;
-			this.button12.Text = "+";
-			this.button12.UseVisualStyleBackColor = false;
+			this.btnbg.BackColor = System.Drawing.Color.Yellow;
+			this.btnbg.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnbg.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.btnbg.Location = new System.Drawing.Point(651, 217);
+			this.btnbg.Name = "btnbg";
+			this.btnbg.Size = new System.Drawing.Size(58, 49);
+			this.btnbg.TabIndex = 42;
+			this.btnbg.Text = "+";
+			this.btnbg.UseVisualStyleBackColor = false;
 			// 
-			// label20
+			// lblbotanag
 			// 
-			this.label20.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label20.ForeColor = System.Drawing.Color.Yellow;
-			this.label20.Location = new System.Drawing.Point(726, 217);
-			this.label20.Name = "label20";
-			this.label20.Size = new System.Drawing.Size(108, 49);
-			this.label20.TabIndex = 43;
-			this.label20.Text = "///////";
+			this.lblbotanag.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblbotanag.ForeColor = System.Drawing.Color.Yellow;
+			this.lblbotanag.Location = new System.Drawing.Point(726, 217);
+			this.lblbotanag.Name = "lblbotanag";
+			this.lblbotanag.Size = new System.Drawing.Size(108, 49);
+			this.lblbotanag.TabIndex = 43;
+			this.lblbotanag.Text = "0";
 			// 
 			// pictureBox1
 			// 
@@ -462,33 +464,33 @@ namespace Tapetes
 			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.ClientSize = new System.Drawing.Size(930, 578);
 			this.Controls.Add(this.pictureBox1);
-			this.Controls.Add(this.label20);
-			this.Controls.Add(this.button12);
+			this.Controls.Add(this.lblbotanag);
+			this.Controls.Add(this.btnbg);
 			this.Controls.Add(this.label19);
-			this.Controls.Add(this.label18);
-			this.Controls.Add(this.button11);
-			this.Controls.Add(this.label17);
-			this.Controls.Add(this.button10);
-			this.Controls.Add(this.label16);
-			this.Controls.Add(this.button9);
-			this.Controls.Add(this.label15);
-			this.Controls.Add(this.button8);
+			this.Controls.Add(this.lblbotanap);
+			this.Controls.Add(this.btnbp);
+			this.Controls.Add(this.lblbotellas);
+			this.Controls.Add(this.btnbotella);
+			this.Controls.Add(this.lbltortas);
+			this.Controls.Add(this.btntortas);
+			this.Controls.Add(this.lbltrabajadores);
+			this.Controls.Add(this.btntrabaja);
 			this.Controls.Add(this.label14);
 			this.Controls.Add(this.label13);
 			this.Controls.Add(this.label12);
 			this.Controls.Add(this.label11);
-			this.Controls.Add(this.label10);
-			this.Controls.Add(this.button7);
+			this.Controls.Add(this.lblfruta);
+			this.Controls.Add(this.btnfruta);
 			this.Controls.Add(this.label9);
-			this.Controls.Add(this.label8);
-			this.Controls.Add(this.button6);
+			this.Controls.Add(this.lblflores);
+			this.Controls.Add(this.btnflores);
 			this.Controls.Add(this.label7);
 			this.Controls.Add(this.button5);
 			this.Controls.Add(this.button3);
 			this.Controls.Add(this.button2);
 			this.Controls.Add(this.label6);
-			this.Controls.Add(this.label5);
-			this.Controls.Add(this.button1);
+			this.Controls.Add(this.lblpintura);
+			this.Controls.Add(this.btnpintura);
 			this.Controls.Add(this.label4);
 			this.Controls.Add(this.textBox2);
 			this.Controls.Add(this.textBox1);
@@ -505,33 +507,33 @@ namespace Tapetes
 			this.PerformLayout();
 		}
 		private System.Windows.Forms.PictureBox pictureBox1;
-		private System.Windows.Forms.Label label20;
-		private System.Windows.Forms.Button button12;
+		private System.Windows.Forms.Label lblbotanag;
+		private System.Windows.Forms.Button btnbg;
 		private System.Windows.Forms.Label label19;
-		private System.Windows.Forms.Label label18;
-		private System.Windows.Forms.Button button11;
-		private System.Windows.Forms.Label label17;
-		private System.Windows.Forms.Button button10;
-		private System.Windows.Forms.Label label16;
-		private System.Windows.Forms.Button button9;
-		private System.Windows.Forms.Label label15;
-		private System.Windows.Forms.Button button8;
+		private System.Windows.Forms.Label lblbotanap;
+		private System.Windows.Forms.Button btnbp;
+		private System.Windows.Forms.Label lblbotellas;
+		private System.Windows.Forms.Button btnbotella;
+		private System.Windows.Forms.Label lbltortas;
+		private System.Windows.Forms.Button btntortas;
+		private System.Windows.Forms.Label lbltrabajadores;
+		private System.Windows.Forms.Button btntrabaja;
 		private System.Windows.Forms.Label label14;
 		private System.Windows.Forms.Label label13;
 		private System.Windows.Forms.Label label12;
 		private System.Windows.Forms.Label label11;
-		private System.Windows.Forms.Label label10;
-		private System.Windows.Forms.Button button7;
+		private System.Windows.Forms.Label lblfruta;
+		private System.Windows.Forms.Button btnfruta;
 		private System.Windows.Forms.Label label9;
-		private System.Windows.Forms.Label label8;
-		private System.Windows.Forms.Button button6;
+		private System.Windows.Forms.Label lblflores;
+		private System.Windows.Forms.Button btnflores;
 		private System.Windows.Forms.Label label7;
 		private System.Windows.Forms.Button button5;
 		private System.Windows.Forms.Button button3;
 		private System.Windows.Forms.Button button2;
 		private System.Windows.Forms.Label label6;
-		private System.Windows.Forms.Label label5;
-		private System.Windows.Forms.Button button1;
+		private System.Windows.Forms.Label lblpintura;
+		private System.Windows.Forms.Button btnpintura;
 		private System.Windows.Forms.Label label4;
 		private System.Windows.Forms.TextBox textBox2;
 		private System.Windows.Forms.TextBox textBox1;

@@ -16,7 +16,11 @@ namespace Tapetes
 	/// Description of Insertar.
 	/// </summary>
 	public partial class Insertar : Form
+		
 	{
+		public int clickpintura;
+		public int clickflores;
+		
 		public Insertar()
 		{
 			//
@@ -34,7 +38,7 @@ namespace Tapetes
 		void Button5Click(object sender, EventArgs e)
 		{
 						
-		Calcular inn = new Calcular();
+		Calcular inn = new Calcular(clickpintura, clickflores);
 			this.Hide();
 			inn.ShowDialog();
 			this.Close();				
@@ -46,6 +50,22 @@ namespace Tapetes
 			this.Hide();
 			inn.ShowDialog();
 			this.Close();	
+		}
+		
+		void BtnpinturaClick(object sender, EventArgs e)
+		{
+			clickpintura= int.Parse( lblpintura.Text );
+			clickpintura++;
+			lblpintura.Text=clickpintura.ToString();
+						
+		}
+		
+		void BtnfloresClick(object sender, EventArgs e)
+		{
+			
+			clickflores= int.Parse( lblflores.Text );
+			clickflores++;
+			lblflores.Text=clickflores.ToString();			
 		}
 	}
 }
