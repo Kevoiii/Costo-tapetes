@@ -362,6 +362,7 @@ namespace Tapetes
 			this.btntortas.TabIndex = 35;
 			this.btntortas.Text = "+";
 			this.btntortas.UseVisualStyleBackColor = false;
+			this.btntortas.Click += new System.EventHandler(this.BtntortasClick);
 			// 
 			// lbltortas
 			// 

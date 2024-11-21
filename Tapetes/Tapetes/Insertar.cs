@@ -28,6 +28,7 @@ namespace Tapetes
 		public int resultadoaserrin;
 		public int resultadotrabajadores;
 		public int metrostra;
+		public int clicktorta;
 		
 		
 		
@@ -59,7 +60,7 @@ namespace Tapetes
 			
 			
 			
-			Calcular inn = new Calcular(clickpintura, clickflores, clickfruta, metros, resultadoaserrin, resultadotrabajadores, metrostra);
+			Calcular inn = new Calcular(clickpintura, clickflores, clickfruta, metros, resultadoaserrin, resultadotrabajadores, metrostra,clicktorta);
 			this.Hide();
 			inn.ShowDialog();
 			this.Close();				
@@ -107,6 +108,13 @@ namespace Tapetes
 			
 			
 			
+		}
+		
+		void BtntortasClick(object sender, EventArgs e)
+		{
+			clicktorta=int.Parse(lbltortas.Text);
+			clicktorta++;
+			lbltortas.Text=clicktorta.ToString();
 		}
 	}
 }

@@ -42,7 +42,7 @@ namespace Tapetes
 			this.label19 = new System.Windows.Forms.Label();
 			this.label18 = new System.Windows.Forms.Label();
 			this.label17 = new System.Windows.Forms.Label();
-			this.label16 = new System.Windows.Forms.Label();
+			this.lbltorta = new System.Windows.Forms.Label();
 			this.lbltrabajadores = new System.Windows.Forms.Label();
 			this.label14 = new System.Windows.Forms.Label();
 			this.label13 = new System.Windows.Forms.Label();
@@ -120,15 +120,15 @@ namespace Tapetes
 			this.label17.TabIndex = 74;
 			this.label17.Text = "///////";
 			// 
-			// label16
+			// lbltorta
 			// 
-			this.label16.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label16.ForeColor = System.Drawing.Color.Yellow;
-			this.label16.Location = new System.Drawing.Point(342, 302);
-			this.label16.Name = "label16";
-			this.label16.Size = new System.Drawing.Size(108, 49);
-			this.label16.TabIndex = 72;
-			this.label16.Text = "///////";
+			this.lbltorta.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lbltorta.ForeColor = System.Drawing.Color.Yellow;
+			this.lbltorta.Location = new System.Drawing.Point(342, 302);
+			this.lbltorta.Name = "lbltorta";
+			this.lbltorta.Size = new System.Drawing.Size(108, 49);
+			this.lbltorta.TabIndex = 72;
+			this.lbltorta.Text = "///////";
 			// 
 			// lbltrabajadores
 			// 
@@ -174,11 +174,11 @@ namespace Tapetes
 			// 
 			this.label11.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label11.ForeColor = System.Drawing.Color.Yellow;
-			this.label11.Location = new System.Drawing.Point(342, 196);
+			this.label11.Location = new System.Drawing.Point(342, 170);
 			this.label11.Name = "label11";
-			this.label11.Size = new System.Drawing.Size(240, 34);
+			this.label11.Size = new System.Drawing.Size(240, 60);
 			this.label11.TabIndex = 65;
-			this.label11.Text = "Trabajadores";
+			this.label11.Text = "cuanto te cobrarán\r\n los trabajadores";
 			// 
 			// lblfruta
 			// 
@@ -384,7 +384,7 @@ namespace Tapetes
 			this.Controls.Add(this.label19);
 			this.Controls.Add(this.label18);
 			this.Controls.Add(this.label17);
-			this.Controls.Add(this.label16);
+			this.Controls.Add(this.lbltorta);
 			this.Controls.Add(this.lbltrabajadores);
 			this.Controls.Add(this.label14);
 			this.Controls.Add(this.label13);
@@ -433,7 +433,7 @@ namespace Tapetes
 		private System.Windows.Forms.Label label13;
 		private System.Windows.Forms.Label label14;
 		private System.Windows.Forms.Label lbltrabajadores;
-		private System.Windows.Forms.Label label16;
+		private System.Windows.Forms.Label lbltorta;
 		private System.Windows.Forms.Label label17;
 		private System.Windows.Forms.Label label18;
 		private System.Windows.Forms.Label label19;

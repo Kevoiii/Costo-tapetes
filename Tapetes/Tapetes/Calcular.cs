@@ -24,7 +24,8 @@ namespace Tapetes
 		int resuase;
 		int resultrabaja;
 		int metrost;
-		public Calcular(int clickk, int clickf, int clickff, int meti, int resua, int restr,int metrostt)
+		int clicktot;
+		public Calcular(int clickk, int clickf, int clickff, int meti, int resua, int restr,int metrostt, int tortas)
 		{
 			//
 			// The InitializeComponent() call is required for Windows Forms designer support.
@@ -37,7 +38,7 @@ namespace Tapetes
 			resuase=resua;
 			resultrabaja=restr;
 			metrost=metrostt;
-			
+			clicktot=tortas;
 			
 			//
 			// TODO: Add constructor code after the InitializeComponent() call.
@@ -58,6 +59,8 @@ namespace Tapetes
 			lblaserrin.Text=met.ToString();
 			lblcostoaserrin.Text=resuase.ToString();
 			lbltrabajadores.Text=resultrabaja.ToString();
+			clicktot=clicktot*30;
+			lbltorta.Text=clicktot.ToString(); 
 			
 		}
 		
