@@ -43,12 +43,12 @@ namespace Tapetes
 			this.label18 = new System.Windows.Forms.Label();
 			this.label17 = new System.Windows.Forms.Label();
 			this.label16 = new System.Windows.Forms.Label();
-			this.label15 = new System.Windows.Forms.Label();
+			this.lbltrabajadores = new System.Windows.Forms.Label();
 			this.label14 = new System.Windows.Forms.Label();
 			this.label13 = new System.Windows.Forms.Label();
 			this.label12 = new System.Windows.Forms.Label();
 			this.label11 = new System.Windows.Forms.Label();
-			this.label10 = new System.Windows.Forms.Label();
+			this.lblfruta = new System.Windows.Forms.Label();
 			this.label9 = new System.Windows.Forms.Label();
 			this.lblflor = new System.Windows.Forms.Label();
 			this.label7 = new System.Windows.Forms.Label();
@@ -62,8 +62,10 @@ namespace Tapetes
 			this.label2 = new System.Windows.Forms.Label();
 			this.button4 = new System.Windows.Forms.Button();
 			this.pictureBox2 = new System.Windows.Forms.PictureBox();
-			this.label1 = new System.Windows.Forms.Label();
+			this.lblaserrin = new System.Windows.Forms.Label();
 			this.label21 = new System.Windows.Forms.Label();
+			this.label5 = new System.Windows.Forms.Label();
+			this.lblcostoaserrin = new System.Windows.Forms.Label();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
 			this.SuspendLayout();
@@ -71,7 +73,7 @@ namespace Tapetes
 			// pictureBox1
 			// 
 			this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-			this.pictureBox1.Location = new System.Drawing.Point(648, 302);
+			this.pictureBox1.Location = new System.Drawing.Point(638, 340);
 			this.pictureBox1.Name = "pictureBox1";
 			this.pictureBox1.Size = new System.Drawing.Size(205, 188);
 			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -128,15 +130,15 @@ namespace Tapetes
 			this.label16.TabIndex = 72;
 			this.label16.Text = "///////";
 			// 
-			// label15
+			// lbltrabajadores
 			// 
-			this.label15.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label15.ForeColor = System.Drawing.Color.Yellow;
-			this.label15.Location = new System.Drawing.Point(342, 220);
-			this.label15.Name = "label15";
-			this.label15.Size = new System.Drawing.Size(108, 49);
-			this.label15.TabIndex = 70;
-			this.label15.Text = "///////";
+			this.lbltrabajadores.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lbltrabajadores.ForeColor = System.Drawing.Color.Yellow;
+			this.lbltrabajadores.Location = new System.Drawing.Point(342, 220);
+			this.lbltrabajadores.Name = "lbltrabajadores";
+			this.lbltrabajadores.Size = new System.Drawing.Size(108, 49);
+			this.lbltrabajadores.TabIndex = 70;
+			this.lbltrabajadores.Text = "///////";
 			// 
 			// label14
 			// 
@@ -178,21 +180,21 @@ namespace Tapetes
 			this.label11.TabIndex = 65;
 			this.label11.Text = "Trabajadores";
 			// 
-			// label10
+			// lblfruta
 			// 
-			this.label10.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label10.ForeColor = System.Drawing.Color.Yellow;
-			this.label10.Location = new System.Drawing.Point(-4, 472);
-			this.label10.Name = "label10";
-			this.label10.Size = new System.Drawing.Size(108, 49);
-			this.label10.TabIndex = 64;
-			this.label10.Text = "///////";
+			this.lblfruta.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblfruta.ForeColor = System.Drawing.Color.Yellow;
+			this.lblfruta.Location = new System.Drawing.Point(-4, 446);
+			this.lblfruta.Name = "lblfruta";
+			this.lblfruta.Size = new System.Drawing.Size(108, 49);
+			this.lblfruta.TabIndex = 64;
+			this.lblfruta.Text = "///////";
 			// 
 			// label9
 			// 
 			this.label9.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label9.ForeColor = System.Drawing.Color.Yellow;
-			this.label9.Location = new System.Drawing.Point(-7, 448);
+			this.label9.Location = new System.Drawing.Point(-4, 412);
 			this.label9.Name = "label9";
 			this.label9.Size = new System.Drawing.Size(240, 34);
 			this.label9.TabIndex = 62;
@@ -202,7 +204,7 @@ namespace Tapetes
 			// 
 			this.lblflor.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblflor.ForeColor = System.Drawing.Color.Yellow;
-			this.lblflor.Location = new System.Drawing.Point(-4, 399);
+			this.lblflor.Location = new System.Drawing.Point(-4, 363);
 			this.lblflor.Name = "lblflor";
 			this.lblflor.Size = new System.Drawing.Size(108, 49);
 			this.lblflor.TabIndex = 61;
@@ -212,7 +214,7 @@ namespace Tapetes
 			// 
 			this.label7.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label7.ForeColor = System.Drawing.Color.Yellow;
-			this.label7.Location = new System.Drawing.Point(-4, 374);
+			this.label7.Location = new System.Drawing.Point(-4, 338);
 			this.label7.Name = "label7";
 			this.label7.Size = new System.Drawing.Size(240, 34);
 			this.label7.TabIndex = 59;
@@ -269,7 +271,7 @@ namespace Tapetes
 			// 
 			this.lblpintura.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblpintura.ForeColor = System.Drawing.Color.Yellow;
-			this.lblpintura.Location = new System.Drawing.Point(-4, 325);
+			this.lblpintura.Location = new System.Drawing.Point(648, 302);
 			this.lblpintura.Name = "lblpintura";
 			this.lblpintura.Size = new System.Drawing.Size(108, 49);
 			this.lblpintura.TabIndex = 54;
@@ -279,7 +281,7 @@ namespace Tapetes
 			// 
 			this.label4.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label4.ForeColor = System.Drawing.Color.Yellow;
-			this.label4.Location = new System.Drawing.Point(-4, 302);
+			this.label4.Location = new System.Drawing.Point(648, 279);
 			this.label4.Name = "label4";
 			this.label4.Size = new System.Drawing.Size(240, 34);
 			this.label4.TabIndex = 52;
@@ -289,7 +291,7 @@ namespace Tapetes
 			// 
 			this.label3.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label3.ForeColor = System.Drawing.Color.Yellow;
-			this.label3.Location = new System.Drawing.Point(-4, 258);
+			this.label3.Location = new System.Drawing.Point(529, 95);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(108, 37);
 			this.label3.TabIndex = 49;
@@ -301,9 +303,9 @@ namespace Tapetes
 			this.label2.ForeColor = System.Drawing.Color.Yellow;
 			this.label2.Location = new System.Drawing.Point(-4, 196);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(254, 62);
+			this.label2.Size = new System.Drawing.Size(254, 83);
 			this.label2.TabIndex = 47;
-			this.label2.Text = "Tamaño del tapete en metros";
+			this.label2.Text = "Kilos de aserrin que se necesitaron";
 			// 
 			// button4
 			// 
@@ -327,15 +329,15 @@ namespace Tapetes
 			this.pictureBox2.TabIndex = 45;
 			this.pictureBox2.TabStop = false;
 			// 
-			// label1
+			// lblaserrin
 			// 
-			this.label1.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label1.ForeColor = System.Drawing.Color.Yellow;
-			this.label1.Location = new System.Drawing.Point(93, 253);
-			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(108, 49);
-			this.label1.TabIndex = 81;
-			this.label1.Text = "///////";
+			this.lblaserrin.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblaserrin.ForeColor = System.Drawing.Color.Yellow;
+			this.lblaserrin.Location = new System.Drawing.Point(-4, 245);
+			this.lblaserrin.Name = "lblaserrin";
+			this.lblaserrin.Size = new System.Drawing.Size(108, 49);
+			this.lblaserrin.TabIndex = 81;
+			this.lblaserrin.Text = "///////";
 			// 
 			// label21
 			// 
@@ -347,26 +349,48 @@ namespace Tapetes
 			this.label21.TabIndex = 82;
 			this.label21.Text = "///////////////////";
 			// 
+			// label5
+			// 
+			this.label5.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label5.ForeColor = System.Drawing.Color.Yellow;
+			this.label5.Location = new System.Drawing.Point(-4, 279);
+			this.label5.Name = "label5";
+			this.label5.Size = new System.Drawing.Size(240, 34);
+			this.label5.TabIndex = 83;
+			this.label5.Text = "Costo";
+			// 
+			// lblcostoaserrin
+			// 
+			this.lblcostoaserrin.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblcostoaserrin.ForeColor = System.Drawing.Color.Yellow;
+			this.lblcostoaserrin.Location = new System.Drawing.Point(-4, 302);
+			this.lblcostoaserrin.Name = "lblcostoaserrin";
+			this.lblcostoaserrin.Size = new System.Drawing.Size(108, 36);
+			this.lblcostoaserrin.TabIndex = 84;
+			this.lblcostoaserrin.Text = "///////";
+			// 
 			// Calcular
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.ClientSize = new System.Drawing.Size(923, 578);
+			this.Controls.Add(this.lblcostoaserrin);
+			this.Controls.Add(this.label5);
 			this.Controls.Add(this.label21);
-			this.Controls.Add(this.label1);
+			this.Controls.Add(this.lblaserrin);
 			this.Controls.Add(this.pictureBox1);
 			this.Controls.Add(this.label20);
 			this.Controls.Add(this.label19);
 			this.Controls.Add(this.label18);
 			this.Controls.Add(this.label17);
 			this.Controls.Add(this.label16);
-			this.Controls.Add(this.label15);
+			this.Controls.Add(this.lbltrabajadores);
 			this.Controls.Add(this.label14);
 			this.Controls.Add(this.label13);
 			this.Controls.Add(this.label12);
 			this.Controls.Add(this.label11);
-			this.Controls.Add(this.label10);
+			this.Controls.Add(this.lblfruta);
 			this.Controls.Add(this.label9);
 			this.Controls.Add(this.lblflor);
 			this.Controls.Add(this.label7);
@@ -386,8 +410,10 @@ namespace Tapetes
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
 			this.ResumeLayout(false);
 		}
+		private System.Windows.Forms.Label lblcostoaserrin;
+		private System.Windows.Forms.Label label5;
 		private System.Windows.Forms.Label label21;
-		private System.Windows.Forms.Label label1;
+		private System.Windows.Forms.Label lblaserrin;
 		private System.Windows.Forms.PictureBox pictureBox2;
 		private System.Windows.Forms.Button button4;
 		private System.Windows.Forms.Label label2;
@@ -401,12 +427,12 @@ namespace Tapetes
 		private System.Windows.Forms.Label label7;
 		private System.Windows.Forms.Label lblflor;
 		private System.Windows.Forms.Label label9;
-		private System.Windows.Forms.Label label10;
+		private System.Windows.Forms.Label lblfruta;
 		private System.Windows.Forms.Label label11;
 		private System.Windows.Forms.Label label12;
 		private System.Windows.Forms.Label label13;
 		private System.Windows.Forms.Label label14;
-		private System.Windows.Forms.Label label15;
+		private System.Windows.Forms.Label lbltrabajadores;
 		private System.Windows.Forms.Label label16;
 		private System.Windows.Forms.Label label17;
 		private System.Windows.Forms.Label label18;

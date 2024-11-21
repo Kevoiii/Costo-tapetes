@@ -42,8 +42,8 @@ namespace Tapetes
 			this.label2 = new System.Windows.Forms.Label();
 			this.label1 = new System.Windows.Forms.Label();
 			this.label3 = new System.Windows.Forms.Label();
-			this.textBox1 = new System.Windows.Forms.TextBox();
-			this.textBox2 = new System.Windows.Forms.TextBox();
+			this.txtlargo = new System.Windows.Forms.TextBox();
+			this.txtancho = new System.Windows.Forms.TextBox();
 			this.label4 = new System.Windows.Forms.Label();
 			this.btnpintura = new System.Windows.Forms.Button();
 			this.lblpintura = new System.Windows.Forms.Label();
@@ -129,19 +129,19 @@ namespace Tapetes
 			this.label3.TabIndex = 13;
 			this.label3.Text = "Ancho";
 			// 
-			// textBox1
+			// txtlargo
 			// 
-			this.textBox1.Location = new System.Drawing.Point(104, 250);
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(127, 20);
-			this.textBox1.TabIndex = 14;
+			this.txtlargo.Location = new System.Drawing.Point(104, 250);
+			this.txtlargo.Name = "txtlargo";
+			this.txtlargo.Size = new System.Drawing.Size(127, 20);
+			this.txtlargo.TabIndex = 14;
 			// 
-			// textBox2
+			// txtancho
 			// 
-			this.textBox2.Location = new System.Drawing.Point(104, 276);
-			this.textBox2.Name = "textBox2";
-			this.textBox2.Size = new System.Drawing.Size(127, 20);
-			this.textBox2.TabIndex = 15;
+			this.txtancho.Location = new System.Drawing.Point(104, 276);
+			this.txtancho.Name = "txtancho";
+			this.txtancho.Size = new System.Drawing.Size(127, 20);
+			this.txtancho.TabIndex = 15;
 			// 
 			// label4
 			// 
@@ -276,6 +276,7 @@ namespace Tapetes
 			this.btnfruta.TabIndex = 27;
 			this.btnfruta.Text = "+";
 			this.btnfruta.UseVisualStyleBackColor = false;
+			this.btnfruta.Click += new System.EventHandler(this.BtnfrutaClick);
 			// 
 			// lblfruta
 			// 
@@ -338,6 +339,7 @@ namespace Tapetes
 			this.btntrabaja.TabIndex = 33;
 			this.btntrabaja.Text = "+";
 			this.btntrabaja.UseVisualStyleBackColor = false;
+			this.btntrabaja.Click += new System.EventHandler(this.BtntrabajaClick);
 			// 
 			// lbltrabajadores
 			// 
@@ -492,8 +494,8 @@ namespace Tapetes
 			this.Controls.Add(this.lblpintura);
 			this.Controls.Add(this.btnpintura);
 			this.Controls.Add(this.label4);
-			this.Controls.Add(this.textBox2);
-			this.Controls.Add(this.textBox1);
+			this.Controls.Add(this.txtancho);
+			this.Controls.Add(this.txtlargo);
 			this.Controls.Add(this.label3);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.label2);
@@ -535,8 +537,8 @@ namespace Tapetes
 		private System.Windows.Forms.Label lblpintura;
 		private System.Windows.Forms.Button btnpintura;
 		private System.Windows.Forms.Label label4;
-		private System.Windows.Forms.TextBox textBox2;
-		private System.Windows.Forms.TextBox textBox1;
+		private System.Windows.Forms.TextBox txtancho;
+		private System.Windows.Forms.TextBox txtlargo;
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Label label2;
