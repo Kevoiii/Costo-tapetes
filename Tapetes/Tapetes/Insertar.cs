@@ -27,6 +27,7 @@ namespace Tapetes
 		public int metros;
 		public int resultadoaserrin;
 		public int resultadotrabajadores;
+		public int metrostra;
 		
 		
 		
@@ -51,10 +52,14 @@ namespace Tapetes
 			 string largo= txtlargo.Text;
 			 intlargo = int.Parse(largo);
 			  metros = intancho*intlargo;
+			  metrostra = intancho*intlargo*10; 
 			  resultadoaserrin = metros*20;
-			resultadotrabajadores=metros*10;
-			lbltrabajadores.Text=resultadotrabajadores.ToString();
-			Calcular inn = new Calcular(clickpintura, clickflores, clickfruta, metros, resultadoaserrin, resultadotrabajadores);
+			  resultadotrabajadores= int.Parse(lbltrabajadores.Text);
+			  resultadotrabajadores=resultadotrabajadores*metrostra;
+			
+			
+			
+			Calcular inn = new Calcular(clickpintura, clickflores, clickfruta, metros, resultadoaserrin, resultadotrabajadores, metrostra);
 			this.Hide();
 			inn.ShowDialog();
 			this.Close();				
@@ -97,8 +102,6 @@ namespace Tapetes
 			clicktrabaj=int.Parse(lbltrabajadores.Text);
 			clicktrabaj++;
 			lbltrabajadores.Text=clicktrabaj.ToString();
-		
-			
 			
 			
 			

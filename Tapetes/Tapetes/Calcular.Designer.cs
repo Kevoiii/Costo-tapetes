@@ -136,7 +136,7 @@ namespace Tapetes
 			this.lbltrabajadores.ForeColor = System.Drawing.Color.Yellow;
 			this.lbltrabajadores.Location = new System.Drawing.Point(342, 220);
 			this.lbltrabajadores.Name = "lbltrabajadores";
-			this.lbltrabajadores.Size = new System.Drawing.Size(108, 49);
+			this.lbltrabajadores.Size = new System.Drawing.Size(183, 49);
 			this.lbltrabajadores.TabIndex = 70;
 			this.lbltrabajadores.Text = "///////";
 			// 

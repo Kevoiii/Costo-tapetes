@@ -23,7 +23,8 @@ namespace Tapetes
 		int met;
 		int resuase;
 		int resultrabaja;
-		public Calcular(int clickk, int clickf, int clickff, int meti, int resua, int restr)
+		int metrost;
+		public Calcular(int clickk, int clickf, int clickff, int meti, int resua, int restr,int metrostt)
 		{
 			//
 			// The InitializeComponent() call is required for Windows Forms designer support.
@@ -35,6 +36,8 @@ namespace Tapetes
 			met=meti;
 			resuase=resua;
 			resultrabaja=restr;
+			metrost=metrostt;
+			
 			
 			//
 			// TODO: Add constructor code after the InitializeComponent() call.
@@ -45,6 +48,7 @@ namespace Tapetes
 		
 		void Button5Click(object sender, EventArgs e)
 		{
+			int gg= resultrabaja*metrost;
 			click=click*40;
 			lblpintura.Text=click.ToString();
 			clickflo=clickflo*10;
@@ -54,6 +58,7 @@ namespace Tapetes
 			lblaserrin.Text=met.ToString();
 			lblcostoaserrin.Text=resuase.ToString();
 			lbltrabajadores.Text=resultrabaja.ToString();
+			
 		}
 		
 		void Button2Click(object sender, EventArgs e)
