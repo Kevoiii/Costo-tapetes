@@ -29,6 +29,10 @@ namespace Tapetes
 		public int resultadotrabajadores;
 		public int metrostra;
 		public int clicktorta;
+		public int cantidad;
+		public int botellass;
+		public int botanap;
+		public int botanag;
 		
 		
 		
@@ -54,13 +58,14 @@ namespace Tapetes
 			 intlargo = int.Parse(largo);
 			  metros = intancho*intlargo;
 			  metrostra = intancho*intlargo*10; 
-			  resultadoaserrin = metros*20;
+			  cantidad=metros*20;
+			  resultadoaserrin = cantidad*20;
 			  resultadotrabajadores= int.Parse(lbltrabajadores.Text);
-			  resultadotrabajadores=resultadotrabajadores*metrostra;
+			  resultadotrabajadores=resultadotrabajadores*metrostra; 
 			
 			
 			
-			Calcular inn = new Calcular(clickpintura, clickflores, clickfruta, metros, resultadoaserrin, resultadotrabajadores, metrostra,clicktorta);
+			Calcular inn = new Calcular(clickpintura, clickflores, clickfruta, metros, resultadoaserrin, resultadotrabajadores, metrostra,clicktorta, cantidad, botellass, botanap, botanag);
 			this.Hide();
 			inn.ShowDialog();
 			this.Close();				
@@ -115,6 +120,24 @@ namespace Tapetes
 			clicktorta=int.Parse(lbltortas.Text);
 			clicktorta++;
 			lbltortas.Text=clicktorta.ToString();
+		}
+		void BtnbotellaClick(object sender, EventArgs e)
+		{
+			botellass=int.Parse(lblbotellas.Text);
+			botellass++;
+			lblbotellas.Text=botellass.ToString();
+		}
+		void BtnbpClick(object sender, EventArgs e)
+		{
+			botanap=int.Parse(lblbotanap.Text);
+			botanap++;
+			lblbotanap.Text=botanap.ToString();
+		}
+		void BtnbgClick(object sender, EventArgs e)
+		{
+			botanag=int.Parse(lblbotanag.Text);
+			botanag++;
+			lblbotanag.Text=botanag.ToString();
 		}
 	}
 }

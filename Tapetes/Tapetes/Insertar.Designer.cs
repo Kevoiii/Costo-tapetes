@@ -80,7 +80,7 @@ namespace Tapetes
 			// pictureBox2
 			// 
 			this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-			this.pictureBox2.Location = new System.Drawing.Point(-1, 2);
+			this.pictureBox2.Location = new System.Drawing.Point(0, 2);
 			this.pictureBox2.Name = "pictureBox2";
 			this.pictureBox2.Size = new System.Drawing.Size(205, 188);
 			this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -90,7 +90,7 @@ namespace Tapetes
 			// button4
 			// 
 			this.button4.BackColor = System.Drawing.Color.Yellow;
-			this.button4.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.button4.Location = new System.Drawing.Point(260, 96);
 			this.button4.Name = "button4";
@@ -101,9 +101,9 @@ namespace Tapetes
 			// 
 			// label2
 			// 
-			this.label2.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label2.ForeColor = System.Drawing.Color.Yellow;
-			this.label2.Location = new System.Drawing.Point(-1, 193);
+			this.label2.Location = new System.Drawing.Point(0, 193);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(254, 62);
 			this.label2.TabIndex = 11;
@@ -111,9 +111,9 @@ namespace Tapetes
 			// 
 			// label1
 			// 
-			this.label1.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label1.ForeColor = System.Drawing.Color.Yellow;
-			this.label1.Location = new System.Drawing.Point(-1, 245);
+			this.label1.Location = new System.Drawing.Point(0, 245);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(108, 37);
 			this.label1.TabIndex = 12;
@@ -121,9 +121,9 @@ namespace Tapetes
 			// 
 			// label3
 			// 
-			this.label3.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label3.ForeColor = System.Drawing.Color.Yellow;
-			this.label3.Location = new System.Drawing.Point(-1, 272);
+			this.label3.Location = new System.Drawing.Point(0, 272);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(108, 37);
 			this.label3.TabIndex = 13;
@@ -145,9 +145,9 @@ namespace Tapetes
 			// 
 			// label4
 			// 
-			this.label4.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label4.ForeColor = System.Drawing.Color.Yellow;
-			this.label4.Location = new System.Drawing.Point(-1, 299);
+			this.label4.Location = new System.Drawing.Point(0, 299);
 			this.label4.Name = "label4";
 			this.label4.Size = new System.Drawing.Size(240, 34);
 			this.label4.TabIndex = 16;
@@ -156,9 +156,9 @@ namespace Tapetes
 			// btnpintura
 			// 
 			this.btnpintura.BackColor = System.Drawing.Color.Yellow;
-			this.btnpintura.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnpintura.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnpintura.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-			this.btnpintura.Location = new System.Drawing.Point(-1, 322);
+			this.btnpintura.Location = new System.Drawing.Point(0, 322);
 			this.btnpintura.Name = "btnpintura";
 			this.btnpintura.Size = new System.Drawing.Size(58, 49);
 			this.btnpintura.TabIndex = 17;
@@ -168,7 +168,7 @@ namespace Tapetes
 			// 
 			// lblpintura
 			// 
-			this.lblpintura.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblpintura.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblpintura.ForeColor = System.Drawing.Color.Yellow;
 			this.lblpintura.Location = new System.Drawing.Point(76, 322);
 			this.lblpintura.Name = "lblpintura";
@@ -179,7 +179,7 @@ namespace Tapetes
 			// label6
 			// 
 			this.label6.BackColor = System.Drawing.Color.Gold;
-			this.label6.Location = new System.Drawing.Point(-4, 518);
+			this.label6.Location = new System.Drawing.Point(0, 518);
 			this.label6.Name = "label6";
 			this.label6.Size = new System.Drawing.Size(936, 62);
 			this.label6.TabIndex = 19;
@@ -187,7 +187,7 @@ namespace Tapetes
 			// button2
 			// 
 			this.button2.BackColor = System.Drawing.Color.Silver;
-			this.button2.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.button2.ForeColor = System.Drawing.Color.Yellow;
 			this.button2.Location = new System.Drawing.Point(25, 531);
 			this.button2.Name = "button2";
@@ -200,7 +200,7 @@ namespace Tapetes
 			// button3
 			// 
 			this.button3.BackColor = System.Drawing.Color.Silver;
-			this.button3.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.button3.ForeColor = System.Drawing.Color.Yellow;
 			this.button3.Location = new System.Drawing.Point(712, 531);
 			this.button3.Name = "button3";
@@ -212,7 +212,7 @@ namespace Tapetes
 			// button5
 			// 
 			this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-			this.button5.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.button5.ForeColor = System.Drawing.Color.Yellow;
 			this.button5.Location = new System.Drawing.Point(278, 527);
 			this.button5.Name = "button5";
@@ -224,9 +224,9 @@ namespace Tapetes
 			// 
 			// label7
 			// 
-			this.label7.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label7.ForeColor = System.Drawing.Color.Yellow;
-			this.label7.Location = new System.Drawing.Point(-1, 371);
+			this.label7.Location = new System.Drawing.Point(0, 371);
 			this.label7.Name = "label7";
 			this.label7.Size = new System.Drawing.Size(240, 34);
 			this.label7.TabIndex = 23;
@@ -235,9 +235,9 @@ namespace Tapetes
 			// btnflores
 			// 
 			this.btnflores.BackColor = System.Drawing.Color.Yellow;
-			this.btnflores.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnflores.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnflores.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-			this.btnflores.Location = new System.Drawing.Point(-1, 396);
+			this.btnflores.Location = new System.Drawing.Point(0, 396);
 			this.btnflores.Name = "btnflores";
 			this.btnflores.Size = new System.Drawing.Size(58, 49);
 			this.btnflores.TabIndex = 24;
@@ -247,7 +247,7 @@ namespace Tapetes
 			// 
 			// lblflores
 			// 
-			this.lblflores.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblflores.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblflores.ForeColor = System.Drawing.Color.Yellow;
 			this.lblflores.Location = new System.Drawing.Point(76, 396);
 			this.lblflores.Name = "lblflores";
@@ -257,9 +257,9 @@ namespace Tapetes
 			// 
 			// label9
 			// 
-			this.label9.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label9.ForeColor = System.Drawing.Color.Yellow;
-			this.label9.Location = new System.Drawing.Point(-4, 445);
+			this.label9.Location = new System.Drawing.Point(0, 445);
 			this.label9.Name = "label9";
 			this.label9.Size = new System.Drawing.Size(240, 34);
 			this.label9.TabIndex = 26;
@@ -268,9 +268,9 @@ namespace Tapetes
 			// btnfruta
 			// 
 			this.btnfruta.BackColor = System.Drawing.Color.Yellow;
-			this.btnfruta.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnfruta.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnfruta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-			this.btnfruta.Location = new System.Drawing.Point(-1, 466);
+			this.btnfruta.Location = new System.Drawing.Point(0, 466);
 			this.btnfruta.Name = "btnfruta";
 			this.btnfruta.Size = new System.Drawing.Size(58, 49);
 			this.btnfruta.TabIndex = 27;
@@ -280,7 +280,7 @@ namespace Tapetes
 			// 
 			// lblfruta
 			// 
-			this.lblfruta.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblfruta.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblfruta.ForeColor = System.Drawing.Color.Yellow;
 			this.lblfruta.Location = new System.Drawing.Point(76, 466);
 			this.lblfruta.Name = "lblfruta";
@@ -290,7 +290,7 @@ namespace Tapetes
 			// 
 			// label11
 			// 
-			this.label11.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label11.ForeColor = System.Drawing.Color.Yellow;
 			this.label11.Location = new System.Drawing.Point(345, 193);
 			this.label11.Name = "label11";
@@ -300,7 +300,7 @@ namespace Tapetes
 			// 
 			// label12
 			// 
-			this.label12.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label12.ForeColor = System.Drawing.Color.Yellow;
 			this.label12.Location = new System.Drawing.Point(345, 276);
 			this.label12.Name = "label12";
@@ -310,7 +310,7 @@ namespace Tapetes
 			// 
 			// label13
 			// 
-			this.label13.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label13.ForeColor = System.Drawing.Color.Yellow;
 			this.label13.Location = new System.Drawing.Point(345, 420);
 			this.label13.Name = "label13";
@@ -320,7 +320,7 @@ namespace Tapetes
 			// 
 			// label14
 			// 
-			this.label14.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label14.ForeColor = System.Drawing.Color.Yellow;
 			this.label14.Location = new System.Drawing.Point(345, 351);
 			this.label14.Name = "label14";
@@ -331,7 +331,7 @@ namespace Tapetes
 			// btntrabaja
 			// 
 			this.btntrabaja.BackColor = System.Drawing.Color.Yellow;
-			this.btntrabaja.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btntrabaja.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btntrabaja.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.btntrabaja.Location = new System.Drawing.Point(345, 221);
 			this.btntrabaja.Name = "btntrabaja";
@@ -343,7 +343,7 @@ namespace Tapetes
 			// 
 			// lbltrabajadores
 			// 
-			this.lbltrabajadores.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lbltrabajadores.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lbltrabajadores.ForeColor = System.Drawing.Color.Yellow;
 			this.lbltrabajadores.Location = new System.Drawing.Point(419, 221);
 			this.lbltrabajadores.Name = "lbltrabajadores";
@@ -354,7 +354,7 @@ namespace Tapetes
 			// btntortas
 			// 
 			this.btntortas.BackColor = System.Drawing.Color.Yellow;
-			this.btntortas.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btntortas.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btntortas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.btntortas.Location = new System.Drawing.Point(345, 299);
 			this.btntortas.Name = "btntortas";
@@ -366,7 +366,7 @@ namespace Tapetes
 			// 
 			// lbltortas
 			// 
-			this.lbltortas.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lbltortas.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lbltortas.ForeColor = System.Drawing.Color.Yellow;
 			this.lbltortas.Location = new System.Drawing.Point(419, 299);
 			this.lbltortas.Name = "lbltortas";
@@ -377,7 +377,7 @@ namespace Tapetes
 			// btnbotella
 			// 
 			this.btnbotella.BackColor = System.Drawing.Color.Yellow;
-			this.btnbotella.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnbotella.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnbotella.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.btnbotella.Location = new System.Drawing.Point(345, 371);
 			this.btnbotella.Name = "btnbotella";
@@ -385,10 +385,11 @@ namespace Tapetes
 			this.btnbotella.TabIndex = 37;
 			this.btnbotella.Text = "+";
 			this.btnbotella.UseVisualStyleBackColor = false;
+			this.btnbotella.Click += new System.EventHandler(this.BtnbotellaClick);
 			// 
 			// lblbotellas
 			// 
-			this.lblbotellas.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblbotellas.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblbotellas.ForeColor = System.Drawing.Color.Yellow;
 			this.lblbotellas.Location = new System.Drawing.Point(419, 371);
 			this.lblbotellas.Name = "lblbotellas";
@@ -399,7 +400,7 @@ namespace Tapetes
 			// btnbp
 			// 
 			this.btnbp.BackColor = System.Drawing.Color.Yellow;
-			this.btnbp.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnbp.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnbp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.btnbp.Location = new System.Drawing.Point(345, 445);
 			this.btnbp.Name = "btnbp";
@@ -407,10 +408,11 @@ namespace Tapetes
 			this.btnbp.TabIndex = 39;
 			this.btnbp.Text = "+";
 			this.btnbp.UseVisualStyleBackColor = false;
+			this.btnbp.Click += new System.EventHandler(this.BtnbpClick);
 			// 
 			// lblbotanap
 			// 
-			this.lblbotanap.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblbotanap.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblbotanap.ForeColor = System.Drawing.Color.Yellow;
 			this.lblbotanap.Location = new System.Drawing.Point(419, 445);
 			this.lblbotanap.Name = "lblbotanap";
@@ -420,7 +422,7 @@ namespace Tapetes
 			// 
 			// label19
 			// 
-			this.label19.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label19.ForeColor = System.Drawing.Color.Yellow;
 			this.label19.Location = new System.Drawing.Point(651, 193);
 			this.label19.Name = "label19";
@@ -431,7 +433,7 @@ namespace Tapetes
 			// btnbg
 			// 
 			this.btnbg.BackColor = System.Drawing.Color.Yellow;
-			this.btnbg.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnbg.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnbg.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.btnbg.Location = new System.Drawing.Point(651, 217);
 			this.btnbg.Name = "btnbg";
@@ -439,10 +441,11 @@ namespace Tapetes
 			this.btnbg.TabIndex = 42;
 			this.btnbg.Text = "+";
 			this.btnbg.UseVisualStyleBackColor = false;
+			this.btnbg.Click += new System.EventHandler(this.BtnbgClick);
 			// 
 			// lblbotanag
 			// 
-			this.lblbotanag.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblbotanag.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblbotanag.ForeColor = System.Drawing.Color.Yellow;
 			this.lblbotanag.Location = new System.Drawing.Point(726, 217);
 			this.lblbotanag.Name = "lblbotanag";
@@ -508,6 +511,7 @@ namespace Tapetes
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
+
 		}
 		private System.Windows.Forms.PictureBox pictureBox1;
 		private System.Windows.Forms.Label lblbotanag;

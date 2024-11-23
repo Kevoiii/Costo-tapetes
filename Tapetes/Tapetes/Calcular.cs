@@ -25,7 +25,11 @@ namespace Tapetes
 		int resultrabaja;
 		int metrost;
 		int clicktot;
-		public Calcular(int clickk, int clickf, int clickff, int meti, int resua, int restr,int metrostt, int tortas)
+		int cantidadaserrin;
+		int botellascosto;
+		int botanapp;
+		int botanagg;
+		public Calcular(int clickk, int clickf, int clickff, int meti, int resua, int restr,int metrostt, int tortas, int cantase, int botellis, int bp, int bg)
 		{
 			//
 			// The InitializeComponent() call is required for Windows Forms designer support.
@@ -39,6 +43,10 @@ namespace Tapetes
 			resultrabaja=restr;
 			metrost=metrostt;
 			clicktot=tortas;
+			cantidadaserrin=cantase;
+			botellascosto=botellis;
+			botanagg=bg;
+			botanapp=bp;
 			
 			//
 			// TODO: Add constructor code after the InitializeComponent() call.
@@ -56,11 +64,20 @@ namespace Tapetes
 			lblflor.Text=clickflo.ToString(); 
 			clickfrut=clickfrut*150;
 			lblfruta.Text=clickfrut.ToString();
-			lblaserrin.Text=met.ToString();
+			lblaserrin.Text=cantidadaserrin.ToString();
 			lblcostoaserrin.Text=resuase.ToString();
 			lbltrabajadores.Text=resultrabaja.ToString();
 			clicktot=clicktot*30;
 			lbltorta.Text=clicktot.ToString(); 
+			botellascosto=botellascosto*15;
+			lblagua.Text=botellascosto.ToString();
+			botanapp=botanapp*15;
+			lblbotañap.Text=botanapp.ToString();
+			botanagg=botanagg*40;
+			lblbotanag.Text=botanagg.ToString();
+			int resss=click+clickflo+clickfrut+clicktot+botellascosto+botanapp+botanagg+resuase+resultrabaja;
+			lblfinal.Text=resss.ToString();
+			
 			
 		}
 		

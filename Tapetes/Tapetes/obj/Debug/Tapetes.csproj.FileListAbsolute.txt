@@ -31,3 +31,14 @@ C:\Users\CC1_PC12\Costo-tapetes\Tapetes\Tapetes\obj\Debug\Tapetes.MainForm.resou
 C:\Users\CC1_PC12\Costo-tapetes\Tapetes\Tapetes\obj\Debug\Tapetes.csproj.GenerateResource.Cache
 C:\Users\CC1_PC12\Costo-tapetes\Tapetes\Tapetes\obj\Debug\Tapetes.exe
 C:\Users\CC1_PC12\Costo-tapetes\Tapetes\Tapetes\obj\Debug\Tapetes.pdb
+C:\Users\Usuario\Costo-tapetes\Tapetes\Tapetes\bin\Debug\Tapetes.exe
+C:\Users\Usuario\Costo-tapetes\Tapetes\Tapetes\bin\Debug\Tapetes.pdb
+C:\Users\Usuario\Costo-tapetes\Tapetes\Tapetes\obj\Debug\Tapetes.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Costo-tapetes\Tapetes\Tapetes\obj\Debug\Tapetes.Calcular.resources
+C:\Users\Usuario\Costo-tapetes\Tapetes\Tapetes\obj\Debug\Tapetes.comprado.resources
+C:\Users\Usuario\Costo-tapetes\Tapetes\Tapetes\obj\Debug\Tapetes.Insertar.resources
+C:\Users\Usuario\Costo-tapetes\Tapetes\Tapetes\obj\Debug\Tapetes.intro.resources
+C:\Users\Usuario\Costo-tapetes\Tapetes\Tapetes\obj\Debug\Tapetes.MainForm.resources
+C:\Users\Usuario\Costo-tapetes\Tapetes\Tapetes\obj\Debug\Tapetes.csproj.GenerateResource.Cache
+C:\Users\Usuario\Costo-tapetes\Tapetes\Tapetes\obj\Debug\Tapetes.exe
+C:\Users\Usuario\Costo-tapetes\Tapetes\Tapetes\obj\Debug\Tapetes.pdb
